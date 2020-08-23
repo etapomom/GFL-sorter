@@ -46,7 +46,7 @@ dataSet[dataSetVersion].options = [
     key: "noten",
     tooltip: "Check this to remove T-Dolls that are yet to be released in the global server.",
 	checked: false
-  },
+  }/*,
   {
     name: "Remove Non-Dolls",
     key: "noguns",
@@ -64,7 +64,7 @@ dataSet[dataSetVersion].options = [
     key: "notgirl",
     tooltip: "Check this to remove all non-female characters.",
     checked: true
-  }
+  }*/
 ];
 
 dataSet[dataSetVersion].characterData = [
