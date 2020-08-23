@@ -37,21 +37,21 @@ dataSet[dataSetVersion].options =
 	{
 		name: "Remove modded MOD3 Dolls",
 		key: "mod3",
-		tooltip: "Yeah, it sounds quite weird, I know."
+		tooltip: "Yeah, it sounds quite weird, I know.",
 		checked: true
 	},
 	
 	{
 		name: "Remove unmodded MOD3 Dolls",
 		key: "nomod",
-		tooltip: "But it just works (tm), check the bottom of the page."
+		tooltip: "But it just works (tm), check the bottom of the page.",
 		checked: false
 	},
 	
 	{
 		name: "Remove Dolls unreleased in EN",
 		key: "noten",
-		tooltip: "Thanks for beta testing, CN."
+		tooltip: "Thanks for beta testing, CN.",
 		checked: true
 	},
 	
