@@ -32,20 +32,17 @@ dataSet[dataSetVersion].options = [
   {
     name: "Remove Neural Upgrades",
     key: "mod3",
-    tooltip: "Check this to remove MOD 3 T-Dolls.",
-	checked: true
+    tooltip: "Check this to remove MOD 3 T-Dolls."
   },
   {
     name: "Remove Non-Neural Upgraded Dolls",
     key: "nomod",
-    tooltip: "Check this to remove unmodded T-Dolls that have a Neural Upgrade available.",
-	checked: false
+    tooltip: "Check this to remove unmodded T-Dolls that have a Neural Upgrade available."
   },
   {
     name: "Remove Dolls not released in EN",
     key: "noten",
-    tooltip: "Check this to remove T-Dolls that are yet to be released in the global server.",
-	checked: false
+    tooltip: "Check this to remove T-Dolls that are yet to be released in the global server."
   }/*,
   {
     name: "Remove Non-Dolls",
