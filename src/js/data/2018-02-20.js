@@ -42,6 +42,7 @@ dataSet[dataSetVersion].options =
 		[
 			{ name: "Remove MOD3s",		key: "modded" 	},
 			{ name: "Remove non-MOD3s",	key: "unmodded" },
+		]
 	},
 	
 	{
