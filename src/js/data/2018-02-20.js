@@ -43,25 +43,7 @@ dataSet[dataSetVersion].options = [
     name: "Remove Dolls not released in EN",
     key: "noten",
     tooltip: "Check this to remove T-Dolls that are yet to be released in the global server."
-  }/*,
-  {
-    name: "Remove Non-Dolls",
-    key: "noguns",
-    tooltip: "Check this to remove all non-Doll characters."
-	checked: true
-  },
-  {
-    name: "Remove Sangvis Ferri",
-    key: "sangvis",
-    tooltip: "Check this to remove all Sangvis Ferri characters.",
-    checked: false
-  },
-  {
-    name: "Remove Non-girls",
-    key: "notgirl",
-    tooltip: "Check this to remove all non-female characters.",
-    checked: true
-  }*/
+  }
 ];
 
 dataSet[dataSetVersion].characterData = [
