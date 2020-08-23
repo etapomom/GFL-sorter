@@ -919,8 +919,8 @@ dataSet[dataSetVersion].characterData = [
 	},
 	
 	{
-		name: "G3",
-		img: "fICOlNa.png", 
+		name: "G3 MOD 3",
+		img: "iZsXntm.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
