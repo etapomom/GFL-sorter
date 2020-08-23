@@ -332,7 +332,7 @@ dataSet[dataSetVersion].characterData = [
 			weapon: [ 'smg' ],
 			rarity: [ '5star' ]
 		}
-	}
+	},
 	
 	{
 		name: "PPSh-41",
