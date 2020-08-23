@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by weapon class",
     key: "weapon",
     tooltip: "Check this to restrict the sorter to specified weapon classes.",
-    checked: false,
+    //checked: false,
     sub: [
       { name: "Handguns", tooltip: "peashooters", key: "hg" },
       { name: "Submachine Guns", tooltip: "run n gun", key: "smg" },
@@ -26,7 +26,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Rare", tooltip: "3-Star T-Dolls", key: "3star" }, 
 	  { name: "Epochal", tooltip: "4-Star T-Dolls", key: "4star" }, 
 	  { name: "Legendary", tooltip: "5-Star T-Dolls", key: "5star" },
-	  { name: "Extra", tooltip: "Collab T-Dolls", key: "extra", checked: false },
+	  { name: "Extra", tooltip: "Collab T-Dolls", key: "extra" },
     ]
   },
   {
