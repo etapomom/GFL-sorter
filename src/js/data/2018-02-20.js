@@ -129,7 +129,7 @@ dataSet[dataSetVersion].characterData = [
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '3star' ]
+			rarity: [ '3star' ],
 			mod3: true
 		}
 	},
@@ -161,7 +161,7 @@ dataSet[dataSetVersion].characterData = [
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '3star' ]
+			rarity: [ '3star' ],
 			mod3: true,
 			noten: true
 		}
