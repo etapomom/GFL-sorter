@@ -232,7 +232,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	{ 'unmodded' ]
+			mod3:	[ 'unmodded' ]
 		}
 	},
 	
