@@ -10,10 +10,10 @@ dataSet[dataSetVersion].options = [
     sub: [
       { name: "Handguns", tooltip: "peashooters", key: "hg" },
       { name: "Submachine Guns", tooltip: "run n gun", key: "smg" },
-      { name: "Assault Rifles", tooltip: "say hello to my little friend", key: "SoEW" },
-      { name: "Rifles", tooltip: "taking the shot", key: "PoDD" },
-      { name: "Machine Guns", tooltip: "get to the chopper", key: "LLS" },
-      { name: "Shotguns", tooltip: "boomsticks", key: "MS" },
+      { name: "Assault Rifles", tooltip: "say hello to my little friend", key: "ar" },
+      { name: "Rifles", tooltip: "taking the shot", key: "rf" },
+      { name: "Machine Guns", tooltip: "get to the chopper", key: "mg" },
+      { name: "Shotguns", tooltip: "boomsticks", key: "sg" },
     ]
   },
   {
