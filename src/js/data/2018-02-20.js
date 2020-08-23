@@ -1,4 +1,4 @@
-dataSetVersion = "2018-02-20"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2020-08-22"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -6,7 +6,7 @@ dataSet[dataSetVersion].options = [
     name: "Filter by weapon class",
     key: "weapon",
     tooltip: "Check this to restrict the sorter to specified weapon classes.",
-    //checked: false,
+    checked: false,
     sub: [
       { name: "Handguns", tooltip: "peashooters", key: "hg" },
       { name: "Submachine Guns", tooltip: "run n gun", key: "smg" },
@@ -71,8 +71,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "o1obAVw.png",
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "4star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
 			nomod: true
 		}
 	},
@@ -82,8 +82,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "KQLKGjd.png",
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "5star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ],
 			mod3: true
 		}
 	},
@@ -93,8 +93,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "sf4cMqU.png",
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "2star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '2star' ],
 			nomod: true
 		}
 	},
@@ -104,8 +104,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "MYY35pX.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "4star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
 			mod3: true
 		}
 	},
@@ -115,8 +115,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "GeRHGff.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -125,8 +125,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "taFMvkw.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "5star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ]
 		}
 	},
 	
@@ -135,8 +135,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "5DJRMLq.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ],
 			nomod: true
 		}
 	},
@@ -146,8 +146,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "7IjHEYi.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
 			mod3: true
 		}
 	},
@@ -157,8 +157,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "QV5lkhZ.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -167,8 +167,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "YYbkJNn.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ],
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ],
 			nomod: true
 		}
 	},
@@ -178,8 +178,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "YaC3EaL.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
 			mod3: true,
 			noten: true
 		}
@@ -190,8 +190,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "swHCQzu.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "3star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -200,8 +200,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "wxiOGCf.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "2star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '2star' ]
 		}
 	},
 	
@@ -210,8 +210,8 @@ dataSet[dataSetVersion].characterData = [
 		img: "Icgkhjo.png", 
 		opts: 
 		{
-			weapon: [ "hg" ],
-			rarity: [ "2star" ]
+			weapon: [ 'hg' ],
+			rarity: [ '2star' ]
 		}
 	}
 ];
