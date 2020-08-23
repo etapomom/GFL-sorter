@@ -4,18 +4,18 @@ dataSet[dataSetVersion] = {};
 dataSet[dataSetVersion].options = 
 [
 	{
-		name: "Filter by weapon class",
+		name: "Filter by Weapon Class",
 		key: "weapon",
 		tooltip: "Check this to restrict the sorter to specified weapon classes.",
 		checked: false,
 		sub: 
 		[
-			{ name: "Handguns", 		tooltip: "peashooters", 					key: "hg" 	},
-			{ name: "Submachine Guns", 	tooltip: "run n gun", 						key: "smg" 	},
-			{ name: "Assault Rifles", 	tooltip: "say hello to my little friend", 	key: "ar" 	},
-			{ name: "Rifles", 			tooltip: "taking the shot", 				key: "rf" 	},
-			{ name: "Machine Guns", 	tooltip: "get to the chopper", 				key: "mg" 	},
-			{ name: "Shotguns", 		tooltip: "boomsticks", 						key: "sg" 	},
+			{ name: "Handguns", 		tooltip: "Pea shooters", 					key: "hg" 	},
+			{ name: "Submachine Guns", 	tooltip: "Can't touch this", 				key: "smg" 	},
+			{ name: "Assault Rifles", 	tooltip: "Say hello to my little friend", 	key: "ar" 	},
+			{ name: "Rifles", 			tooltip: "Mom, get the camera!", 			key: "rf" 	},
+			{ name: "Machine Guns", 	tooltip: "Bullet hoses", 					key: "mg" 	},
+			{ name: "Shotguns", 		tooltip: "Boomsticks", 						key: "sg" 	},
 		]
 	},
 	
@@ -35,32 +35,38 @@ dataSet[dataSetVersion].options =
 	},
 	
 	{
-		name: "Neural Upgrades (Select at least one)",
+		name: "Remove modded MOD3 Dolls",
 		key: "mod3",
-		tooltip: "Should MOD3 T-Dolls appear?",
-		sub:
-		[
-			{ name: "Remove MOD3s",		key: "modded" 	},
-			{ name: "Remove non-MOD3s",	key: "unmodded" },
-		]
+		tooltip: "Yeah, it sounds quite weird, I know."
+		checked: true
+	},
+	
+	{
+		name: "Remove unmodded MOD3 Dolls",
+		key: "nomod",
+		tooltip: "But it just works (tm), check the bottom of the page."
+		checked: false
 	},
 	
 	{
 		name: "Remove Dolls unreleased in EN",
 		key: "noten",
-		tooltip: "Check this to remove T-Dolls that are yet to be released in the global server."
+		tooltip: "Thanks for beta testing, CN."
+		checked: true
 	},
 	
 	{
 		name: "Remove Sangvis Ferri",
 		key: "sangvis",
-		tooltip: "See you in hell, Sangvis scum!"
+		tooltip: "See you in hell, Sangvis scum!",
+		checked: false
 	},
 	
 	{
 		name: "Remove non-Dolls",
 		key: "human",
-		tooltip: "I'm not a robot."
+		tooltip: "I'm not a robot.",
+		checked: true
 	}
 ];
 
@@ -73,7 +79,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '4star' ],
-			mod3:	[ 'unmodded' ]
+			nomod: true
 		}
 	},
 	
@@ -84,7 +90,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '5star' ],
-			mod3:	[ 'modded' ]
+			mod3: true
 		}
 	},
 	
@@ -95,7 +101,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '2star' ],
-			mod3:	[ 'unmodded' ]
+			nomod: true
 		}
 	},
 	
@@ -106,7 +112,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '4star' ],
-			mod3:	[ 'modded' ]
+			mod3: true
 		}
 	},
 	
@@ -137,7 +143,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	[ 'unmodded' ]
+			nomod: true
 		}
 	},
 	
@@ -148,7 +154,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	[ 'modded' ]
+			mod3: true
 		}
 	},
 	
@@ -169,7 +175,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	[ 'modded' ]
+			nomod: true
 		}
 	},
 	
@@ -180,7 +186,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	[ 'modded' ],
+			mod3:	true,
 			noten: 	true
 		}
 	},
@@ -232,7 +238,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3:	[ 'unmodded' ]
+			nomod: true
 		}
 	},
 	
@@ -243,7 +249,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '4star' ],
-			mod3:	[ 'modded' ],
+			mod3:	true,
 			noten: true
 		}
 	},
