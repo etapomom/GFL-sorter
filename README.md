@@ -1,5 +1,5 @@
-# Collapse Fluid
-A simple Girls' Frontline character bias sorter.
+# gfl-sorter
+A simple Girls' Frontline character bias sorter. Currently like .1% complete.
 
 ## Credits
 
