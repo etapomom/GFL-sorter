@@ -1,49 +1,66 @@
 dataSetVersion = "2020-08-22"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
-dataSet[dataSetVersion].options = [
-  {
-    name: "Filter by weapon class",
-    key: "weapon",
-    tooltip: "Check this to restrict the sorter to specified weapon classes.",
-    checked: false,
-    sub: [
-      { name: "Handguns", tooltip: "peashooters", key: "hg" },
-      { name: "Submachine Guns", tooltip: "run n gun", key: "smg" },
-      { name: "Assault Rifles", tooltip: "say hello to my little friend", key: "ar" },
-      { name: "Rifles", tooltip: "taking the shot", key: "rf" },
-      { name: "Machine Guns", tooltip: "get to the chopper", key: "mg" },
-      { name: "Shotguns", tooltip: "boomsticks", key: "sg" },
-    ]
-  },
-  {
-    name: "Filter by rarity",
-    key: "rarity",
-    tooltip: "Check this to restrict the sorter to specified weapon rarities.",
-    checked: false,
-    sub: [ 
-	  { name: "General", tooltip: "2-Star T-Dolls", key: "2star" }, 
-	  { name: "Rare", tooltip: "3-Star T-Dolls", key: "3star" }, 
-	  { name: "Epochal", tooltip: "4-Star T-Dolls", key: "4star" }, 
-	  { name: "Legendary", tooltip: "5-Star T-Dolls", key: "5star" },
-	  { name: "Extra", tooltip: "Collab T-Dolls", key: "extra" },
-    ]
-  },
-  {
-    name: "Remove Neural Upgrades",
-    key: "mod3",
-    tooltip: "Check this to remove MOD 3 T-Dolls."
-  },
-  {
-    name: "Remove Non-Neural Upgraded Dolls",
-    key: "nomod",
-    tooltip: "Check this to remove unmodded T-Dolls that have a Neural Upgrade available."
-  },
-  {
-    name: "Remove Dolls not released in EN",
-    key: "noten",
-    tooltip: "Check this to remove T-Dolls that are yet to be released in the global server."
-  }
+dataSet[dataSetVersion].options = 
+[
+	{
+		name: "Filter by weapon class",
+		key: "weapon",
+		tooltip: "Check this to restrict the sorter to specified weapon classes.",
+		checked: false,
+		sub: 
+		[
+			{ name: "Handguns", 		tooltip: "peashooters", 					key: "hg" 	},
+			{ name: "Submachine Guns", 	tooltip: "run n gun", 						key: "smg" 	},
+			{ name: "Assault Rifles", 	tooltip: "say hello to my little friend", 	key: "ar" 	},
+			{ name: "Rifles", 			tooltip: "taking the shot", 				key: "rf" 	},
+			{ name: "Machine Guns", 	tooltip: "get to the chopper", 				key: "mg" 	},
+			{ name: "Shotguns", 		tooltip: "boomsticks", 						key: "sg" 	},
+		]
+	},
+	
+	{
+		name: "Filter by rarity",
+		key: "rarity",
+		tooltip: "Check this to restrict the sorter to specified weapon rarities.",
+		checked: false,
+		sub: 
+		[ 
+			{ name: "General", 		tooltip: "2-Star T-Dolls", key: "2star" }, 
+			{ name: "Rare", 		tooltip: "3-Star T-Dolls", key: "3star" }, 
+			{ name: "Epochal", 		tooltip: "4-Star T-Dolls", key: "4star" }, 
+			{ name: "Legendary", 	tooltip: "5-Star T-Dolls", key: "5star" },
+			{ name: "Extra", 		tooltip: "Collab T-Dolls", key: "extra" },
+		]
+	},
+	
+	{
+		name: "Neural Upgrades (Select at least one)",
+		key: "mod3",
+		tooltip: "Should MOD3 T-Dolls appear?"
+		sub:
+		[
+			{ name: "Remove MOD3s",		key: "modded" 	},
+			{ name: "Remove non-MOD3s",	key: "unmodded" },
+	},
+	
+	{
+		name: "Remove Dolls unreleased in EN",
+		key: "noten",
+		tooltip: "Check this to remove T-Dolls that are yet to be released in the global server."
+	},
+	
+	{
+		name: "Remove Sangvis Ferri",
+		key: "sangvis",
+		tooltip: "See you in hell, Sangvis scum!"
+	},
+	
+	{
+		name: "Remove non-Dolls",
+		key: "human",
+		tooltip: "I'm not a robot."
+	}
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -55,7 +72,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '4star' ],
-			nomod: true
+			mod3:	[ 'unmodded' ]
 		}
 	},
 	
@@ -66,7 +83,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '5star' ],
-			mod3: true
+			mod3:	[ 'modded' ]
 		}
 	},
 	
@@ -77,7 +94,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '2star' ],
-			nomod: true
+			mod3:	[ 'unmodded' ]
 		}
 	},
 	
@@ -88,7 +105,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '4star' ],
-			mod3: true
+			mod3:	[ 'modded' ]
 		}
 	},
 	
@@ -119,7 +136,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			nomod: true
+			mod3:	[ 'unmodded' ]
 		}
 	},
 	
@@ -130,7 +147,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3: true
+			mod3:	[ 'modded' ]
 		}
 	},
 	
@@ -151,7 +168,7 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			nomod: true
+			mod3:	[ 'modded' ]
 		}
 	},
 	
@@ -162,8 +179,8 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '3star' ],
-			mod3: true,
-			noten: true
+			mod3:	[ 'modded' ],
+			noten: 	true
 		}
 	},
 	
