@@ -37,7 +37,7 @@ dataSet[dataSetVersion].options =
 	{
 		name: "Neural Upgrades (Select at least one)",
 		key: "mod3",
-		tooltip: "Should MOD3 T-Dolls appear?"
+		tooltip: "Should MOD3 T-Dolls appear?",
 		sub:
 		[
 			{ name: "Remove MOD3s",		key: "modded" 	},
@@ -212,6 +212,119 @@ dataSet[dataSetVersion].characterData = [
 		{
 			weapon: [ 'hg' ],
 			rarity: [ '2star' ]
+		}
+	},
+	
+	{
+		name: "P08",
+		img: "KCKtS43.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "C96",
+		img: "B3IdQ4N.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ],
+			mod3:	{ 'unmodded' ]
+		}
+	},
+	
+	{
+		name: "C96 MOD 3",
+		img: "G06QYxW.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
+			mod3:	[ 'modded' ],
+			noten: true
+		}
+	},
+	
+	{
+		name: "Type 92",
+		img: "enCN6zN.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "Astra Revolver",
+		img: "Dia1g12.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "Glock 17",
+		img: "81WLzDk.png", 
+		opts: 
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "Thompson",
+		img: "E1YQm8Q.png", 
+		opts: 
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '5star' ]
+		}
+	},
+	
+	{
+		name: "M3",
+		img: "DpfWcGY.png", 
+		opts: 
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '2star' ]
+		}
+	},
+	
+	{
+		name: "MAC-10",
+		img: "QkynSgb.png", 
+		opts: 
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "FMG-9",
+		img: "6oTWEE1.png", 
+		opts: 
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "Vector",
+		img: "eRU1pCn.png", 
+		opts: 
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '5star' ]
 		}
 	}
 ];
