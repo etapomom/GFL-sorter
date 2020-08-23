@@ -216,5 +216,5 @@ dataSet[dataSetVersion].characterData = [
 			weapon: [ "hg" ],
 			rarity: [ "2star" ]
 		}
-	},
+	}
 ];
