@@ -1,4 +1,4 @@
-dataSetVersion = "2020-08-22"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2021-01-19"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = 
@@ -35,37 +35,9 @@ dataSet[dataSetVersion].options =
 	},
 	
 	{
-		name: "Remove modded MOD3 Dolls",
-		key: "mod3",
-		tooltip: "Yeah, it sounds quite weird, I know.",
-		checked: true
-	},
-	
-	{
-		name: "Remove unmodded MOD3 Dolls",
-		key: "nomod",
-		tooltip: "But it just works (tm), check the bottom of the page.",
-		checked: false
-	},
-	
-	{
 		name: "Remove Dolls unreleased in EN",
 		key: "noten",
 		tooltip: "Thanks for beta testing, CN.",
-		checked: true
-	},
-	
-	{
-		name: "Remove Sangvis Ferri",
-		key: "sangvis",
-		tooltip: "See you in hell, Sangvis scum!",
-		checked: false
-	},
-	
-	{
-		name: "Remove non-Dolls",
-		key: "human",
-		tooltip: "I'm not a robot.",
 		checked: true
 	}
 ];
@@ -74,45 +46,21 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "Colt Revolver",
-		img: "o1obAVw.png",
-		opts: 
-		{
-			weapon: [ 'hg' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Colt Revolver MOD 3",
 		img: "KQLKGjd.png",
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
 	{
 		name: "M1911",
-		img: "sf4cMqU.png",
-		opts: 
-		{
-			weapon: [ 'hg' ],
-			rarity: [ '2star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "M1911 MOD 3",
 		img: "MYY35pX.png", 
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '4star' ],
-			mod3: true
+			rarity: [ '2star' ]
 		}
 	},
 	
@@ -138,23 +86,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "Nagant Revolver",
-		img: "5DJRMLq.png", 
-		opts: 
-		{
-			weapon: [ 'hg' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Nagant Revolver MOD 3",
 		img: "7IjHEYi.png", 
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '3star' ],
-			mod3: true
+			rarity: [ '2star' ]
 		}
 	},
 	
@@ -170,24 +106,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "Stechkin",
-		img: "YYbkJNn.png", 
-		opts: 
-		{
-			weapon: [ 'hg' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Stechkin MOD 3",
 		img: "YaC3EaL.png", 
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '3star' ],
-			mod3:	true,
-			noten: 	true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -233,24 +156,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "C96",
-		img: "B3IdQ4N.png", 
-		opts: 
-		{
-			weapon: [ 'hg' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "C96 MOD 3",
 		img: "G06QYxW.png", 
 		opts: 
 		{
 			weapon: [ 'hg' ],
-			rarity: [ '4star' ],
-			mod3:	true,
-			noten: true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -386,24 +296,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "MP5",
-		img: "pY9reMT.png", 
-		opts: 
-		{
-			weapon: [ 'smg' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "MP5 MOD 3",
 		img: "tl9Obtf.png", 
 		opts: 
 		{
 			weapon: [ 'smg' ],
-			rarity: [ '5star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '4star' ]
 		}
 	},
 	
@@ -429,69 +326,31 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "Sten MkII",
-		img: "UgW4Jwo.png", 
-		opts: 
-		{
-			weapon: [ 'smg' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Sten MkII MOD 3",
 		img: "LY3qlmv.png", 
 		opts: 
 		{
 			weapon: [ 'smg' ],
-			rarity: [ '4star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '3star' ]
 		}
 	},
 	
 	{
 		name: "Beretta M38",
-		img: "6V7PkN3.png", 
-		opts: 
-		{
-			weapon: [ 'smg' ],
-			rarity: [ '2star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Beretta M38 MOD 3",
 		img: "ebU8gds.png", 
 		opts: 
 		{
 			weapon: [ 'smg' ],
-			rarity: [ '4star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '2star' ]
 		}
 	},
 	
 	{
 		name: "Micro UZI",
-		img: "ls3o2ZF.png", 
-		opts: 
-		{
-			weapon: [ 'smg' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Micro UZI MOD 3",
 		img: "QRaRtUa.png", 
 		opts: 
 		{
 			weapon: [ 'smg' ],
-			rarity: [ '4star' ],
-			mod3: true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -537,23 +396,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "M14",
-		img: "7Tj4D1n.png", 
-		opts: 
-		{
-			weapon: [ 'rf' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "M14 MOD 3",
 		img: "ER4OPkI.png", 
 		opts: 
 		{
 			weapon: [ 'rf' ],
-			rarity: [ '4star' ],
-			mod3: true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -569,23 +416,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "Mosin Nagant",
-		img: "JnG9vEE.png", 
-		opts: 
-		{
-			weapon: [ 'rf' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "Mosin Nagant MOD 3",
 		img: "m7TqnHp.png", 
 		opts: 
 		{
 			weapon: [ 'rf' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
@@ -631,24 +466,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "SV-98",
-		img: "LlckWTP.png",
-		opts: 
-		{
-			weapon: [ 'rf' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "SV-98 MOD 3",
 		img: "TiCBluW.png", 
 		opts: 
 		{
 			weapon: [ 'rf' ],
-			rarity: [ '4star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -704,23 +526,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "FN-49",
-		img: "F2eYlLO.png", 
-		opts: 
-		{
-			weapon: [ 'rf' ],
-			rarity: [ '2star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "FN-49 MOD 3",
 		img: "ry9pzsZ.png", 
 		opts: 
 		{
 			weapon: [ 'rf' ],
-			rarity: [ '4star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
@@ -736,23 +546,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "NTW-20",
-		img: "ep6G7yA.png", 
-		opts: 
-		{
-			weapon: [ 'rf' ],
-			rarity: [ '5star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "NTW-20 MOD 3",
 		img: "MzxwQyR.png", 
 		opts: 
 		{
 			weapon: [ 'rf' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '5star' ]
 		}
 	},
 	
@@ -768,67 +566,31 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "M4A1",
-		img: "SgwjRxr.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "M4A1 MOD 3",
 		img: "PjNNDy5.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
 	{
 		name: "M4 SOPMOD II",
-		img: "cVAlon8.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "M4 SOPMOD II MOD 3",
 		img: "LxX0PO8.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
 	{
 		name: "ST AR-15",
-		img: "uiOPXTB.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "ST AR-15 MOD 3",
 		img: "aqLofxz.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
@@ -854,46 +616,21 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "AS-Val",
-		img: "7SPQNRt.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "AS-Val MOD 3",
 		img: "YrhF4qm.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
 	{
 		name: "StG-44",
-		img: "YT51mSw.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '3star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "StG-44 MOD 3",
 		img: "C6Xyqj6.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '3star' ]
 		}
 	},
 	
@@ -909,68 +646,31 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "G3",
-		img: "fICOlNa.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '2star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "G3 MOD 3",
 		img: "iZsXntm.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			mod3: true
+			rarity: [ '2star' ]
 		}
 	},
 	
 	{
 		name: "G36",
-		img: "5rwWU8V.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "G36 MOD 3",
 		img: "Pdqvx03.png", 
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
 	{
 		name: "HK416",
-		img: "uMIyyu8.png", 
+		img: "0qc0Vqc.png",
 		opts: 
 		{
 			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "HK416 MOD 3",
-		img: "0qc0Vqc.png", 
-		opts: 
-		{
-			weapon: [ 'ar' ],
-			rarity: [ '5star' ],
-			mod3: true,
-			noten: true
+			rarity: [ '5star' ]
 		}
 	},
 	
@@ -1046,23 +746,11 @@ dataSet[dataSetVersion].characterData = [
 	
 	{
 		name: "M1918 BAR",
-		img: "xhrtBSc.png", 
-		opts: 
-		{
-			weapon: [ 'mg' ],
-			rarity: [ '4star' ],
-			nomod: true
-		}
-	},
-	
-	{
-		name: "M1918 BAR MOD 3",
 		img: "WaBulXL.png", 
 		opts: 
 		{
 			weapon: [ 'mg' ],
-			rarity: [ '5star' ],
-			mod3: true
+			rarity: [ '4star' ]
 		}
 	},
 	
@@ -1094,5 +782,175 @@ dataSet[dataSetVersion].characterData = [
 			weapon: [ 'mg' ],
 			rarity: [ '3star' ]
 		}
-	}
+	},
+	
+	{
+		name: "M1919A4",
+		img: "3Wm4BXA.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '3star' ]
+		}
+	},
+	
+	{
+		name: "LWMMG",
+		img: "9FmPP5E.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "DP-28",
+		img: "eZ3G1co.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "RPD",
+		img: "QuFVJiJ.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "PK",
+		img: "BFd7rKQ.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "MG42",
+		img: "SRo6DRD.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "MG34",
+		img: "9lnCeSq.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "MG3",
+		img: "E2WzXoQ.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "Bren",
+		img: "XIEbf6n.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "FNP-9",
+		img: "T9TJELo.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "MP-446 Viking",
+		img: "agjtYss.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "Spectre M4",
+		img: "yaE1TWI.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "IDW",
+		img: "Qv0z1TA.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "Type 64",
+		img: "SJEmnMj.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "Hanyang Type 88",
+		img: "bcVwXTV.png",
+		opts:
+		{
+			weapon: [ 'rf' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "Grizzly MkV",
+		img: "B2HKYzG.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Calico M950A",
+		img: "V3yBre8.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ],
+		}
+	},
 ];
