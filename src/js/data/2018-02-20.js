@@ -953,4 +953,334 @@ dataSet[dataSetVersion].characterData = [
 			rarity: [ '5star' ],
 		}
 	},
+	
+	{
+		name: "P7",
+		img: "mpH2kav.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "UMP9",
+		img: "YTeKvvN.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "UMP40",
+		img: "wAgmosw.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "UMP45",
+		img: "yRzPIBI.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "G36C",
+		img: "yTQSXt0.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "OTs-12",
+		img: "fW4AX1F.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "FAL",
+		img: "KiOJldV.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "F2000",
+		img: "pVrOyNv.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "CZ-805",
+		img: "f4KFxWm.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "MG5",
+		img: "eAsx121.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "FG42",
+		img: "lchz7UP.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "AAT-52",
+		img: "gwsYBBJ.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '2star' ],
+		}
+	},
+	
+	{
+		name: "Negev",
+		img: "POCDX25.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Serdyukov",
+		img: "lgUuBSK.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "Welrod MkII",
+		img: "7vPJxue.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Suomi",
+		img: "M1EU7wl.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Z-62",
+		img: "iJc7bsE.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "PSG-1",
+		img: "W7hO48g.png",
+		opts:
+		{
+			weapon: [ 'rf' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "9A-91",
+		img: "3HBbyKl.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "OTs-14",
+		img: "j4dQDR5.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "ARX-160",
+		img: "DVqzCLe.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "Mk48",
+		img: "lcN2Ysg.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "G11",
+		img: "0t3TNq5.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "P99",
+		img: "lTE9Iwn.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "Super SASS",
+		img: "NaFwcIM.png",
+		opts:
+		{
+			weapon: [ 'rf' ],
+			rarity: [ '3star' ],
+		}
+	},
+	
+	{
+		name: "MG4",
+		img: "2bFyzTR.png",
+		opts:
+		{
+			weapon: [ 'mg' ],
+			rarity: [ '5star'],
+		}
+	},
+	
+	{
+		name: "NZ75",
+		img: "UwR9QTV.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Type 79",
+		img: "i8oKjUc.png",
+		opts:
+		{
+			weapon: [ 'smg' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "M99",
+		img: "PSVyLr8.png",
+		opts:
+		{
+			weapon: [ 'rf' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Type 95",
+		img: "AuddDkc.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "Type 97",
+		img: "tw7fFjN.png",
+		opts:
+		{
+			weapon: [ 'ar' ],
+			rarity: [ '5star' ],
+		}
+	},
+	
+	{
+		name: "SPP-1",
+		img: "bN4f9sj.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
+		}
+	},
+	
+	{
+		name: "Mk23",
+		img: "3aVWlz8.png",
+		opts:
+		{
+			weapon: [ 'hg' ],
+			rarity: [ '4star' ],
+		}
+	}
 ];
